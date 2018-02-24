@@ -2,7 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.amine.nordikhackathonapp">
     <uses-sdk android:minSdkVersion="14" />
-
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+    
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,6 +21,8 @@
         </activity>
 
         <activity android:name=".CollectionDemoActivity" android:label="@string/demo_collection" />
+
+
     </application>
 
 </manifest>

@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity implements ActionBar.TabList
 
 
         // Set up the action bar.
-        final ActionBar actionBar = getSupportActionBar();;
+        final ActionBar actionBar = getSupportActionBar();
 
         // Specify that the Home/Up button should not be enabled, since there is no hierarchical
         // parent.
